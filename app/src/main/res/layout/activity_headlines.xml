@@ -1,0 +1,32 @@
+<RelativeLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/actionbar"
+       android:orientation="horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+                   >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:text="News Company"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/newscompany"
+            />
+
+    </LinearLayout>
+        <ListView
+            android:layout_below="@+id/actionbar"
+            android:padding="10dp"
+            android:id="@+id/headlinelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+</RelativeLayout>
