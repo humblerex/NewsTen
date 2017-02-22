@@ -9,3 +9,6 @@ Entertainment
 World
 Technology
 Science
+
+# Contributions
+You are welcome to make this app more better. 
